@@ -8,10 +8,6 @@ Created on Tue Nov  5 08:43:18 2019
 from nltk.corpus.reader import mte
 import string
 
-corpus = mte.MTEFileReader('C:\\Users\\Jana\\Desktop\\mk\\newest8.xml')
-
-sents = corpus.tagged_sents("msd","")
-
 
 def clean_untagged(sents):
     s_clean = []
